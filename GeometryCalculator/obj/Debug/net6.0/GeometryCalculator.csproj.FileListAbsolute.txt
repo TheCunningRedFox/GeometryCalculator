@@ -1,0 +1,11 @@
+D:\My Projects\GeometryCalculator\GeometryCalculator\bin\Debug\net6.0\GeometryCalculator.deps.json
+D:\My Projects\GeometryCalculator\GeometryCalculator\bin\Debug\net6.0\GeometryCalculator.dll
+D:\My Projects\GeometryCalculator\GeometryCalculator\bin\Debug\net6.0\ref\GeometryCalculator.dll
+D:\My Projects\GeometryCalculator\GeometryCalculator\bin\Debug\net6.0\GeometryCalculator.pdb
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.AssemblyInfoInputs.cache
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.AssemblyInfo.cs
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.csproj.CoreCompileInputs.cache
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.dll
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\ref\GeometryCalculator.dll
+D:\My Projects\GeometryCalculator\GeometryCalculator\obj\Debug\net6.0\GeometryCalculator.pdb

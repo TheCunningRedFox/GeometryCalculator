@@ -1,4 +1,4 @@
-.XunitTestGeometryCalculator/bin
-.XunitTestGeometryCalculator/obj
-.GeometryCalculator/bin
-.GeometryCalculator/obj
+.XunitTestGeometryCalculator/bin/
+.XunitTestGeometryCalculator/obj/
+.GeometryCalculator/bin/
+.GeometryCalculator/obj/

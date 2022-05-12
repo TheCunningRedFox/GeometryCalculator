@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculator", "GeometryCalculator.csproj", "{3EA55140-8654-4AD4-A26B-6F3E52661930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryCalculator", "GeometryCalculator.csproj", "{3EA55140-8654-4AD4-A26B-6F3E52661930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGeometryCalculator", "..\TestProject1\TestGeometryCalculator.csproj", "{22754AFA-B692-490E-B71A-3E31945DA9F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{EB3CC2A8-C3BD-456E-AF5E-7D857C646784}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTestGeometryCalculator", "..\XunitTestGeometryCalculator\XunitTestGeometryCalculator.csproj", "{40FCD3C1-8D0F-4732-A13E-2EA7FDAE4A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,10 @@ Global
 		{3EA55140-8654-4AD4-A26B-6F3E52661930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA55140-8654-4AD4-A26B-6F3E52661930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA55140-8654-4AD4-A26B-6F3E52661930}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22754AFA-B692-490E-B71A-3E31945DA9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22754AFA-B692-490E-B71A-3E31945DA9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22754AFA-B692-490E-B71A-3E31945DA9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22754AFA-B692-490E-B71A-3E31945DA9F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB3CC2A8-C3BD-456E-AF5E-7D857C646784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB3CC2A8-C3BD-456E-AF5E-7D857C646784}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB3CC2A8-C3BD-456E-AF5E-7D857C646784}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB3CC2A8-C3BD-456E-AF5E-7D857C646784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FCD3C1-8D0F-4732-A13E-2EA7FDAE4A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FCD3C1-8D0F-4732-A13E-2EA7FDAE4A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FCD3C1-8D0F-4732-A13E-2EA7FDAE4A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FCD3C1-8D0F-4732-A13E-2EA7FDAE4A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

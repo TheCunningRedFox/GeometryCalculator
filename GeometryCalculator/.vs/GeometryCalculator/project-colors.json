@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ea55140-8654-4ad4-a26b-6f3e52661930": {
+      "ProjectGuid": "3ea55140-8654-4ad4-a26b-6f3e52661930",
+      "DisplayName": "GeometryCalculator",
+      "ColorIndex": 0
+    },
+    "2a102274-8a32-49d5-84c3-a34a52c66dab": {
+      "ProjectGuid": "2a102274-8a32-49d5-84c3-a34a52c66dab",
+      "DisplayName": "TestGeometryCalculator",
+      "ColorIndex": 1
+    },
+    "22754afa-b692-490e-b71a-3e31945da9f7": {
+      "ProjectGuid": "22754afa-b692-490e-b71a-3e31945da9f7",
+      "DisplayName": "TestGeometryCalculator",
+      "ColorIndex": 2
+    },
+    "eb3cc2a8-c3bd-456e-af5e-7d857c646784": {
+      "ProjectGuid": "eb3cc2a8-c3bd-456e-af5e-7d857c646784",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

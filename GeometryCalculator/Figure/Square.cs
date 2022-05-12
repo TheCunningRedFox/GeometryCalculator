@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace GeometryCalculator.Figure
 {
-    public class Сircle : Figure
+    public class Square : Figure
     {
-        public double R { get; set; }
-        public Сircle (double r)
+        public double Side { get; set; }
+
+        public Square(double side)
         {
-            R = r;
+            Side = side;
         }
         public override double GetSquare()
         {
-            return Math.PI * Math.Pow(R, 2);
+            return Math.Pow(Side, 2);
         }
 
         public override double GetPerimeter()
         {
-            return 2 * R * Math.PI;
+            const double sideCount = 4;
+            return Side * sideCount;
         }
     }
 }

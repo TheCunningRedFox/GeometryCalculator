@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace GeometryCalculator
+namespace GeometryCalculator.Figure
 {
-    public class Triangle : IFigure
+    public class Triangle : Figure
     {
         public double A { get; set; }
         public double B { get; set; }
@@ -20,10 +20,15 @@ namespace GeometryCalculator
             C = c;
         }
 
-        public double CalculateSquare()
+        public override double GetSquare()
         {
             double p = (A + B + C) / 2;
             return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
+        }
+
+        public override double GetPerimeter()
+        {
+            return A + B + C;
         }
 
         public bool CheckRightTriangle()

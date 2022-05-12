@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometryCalculator
+namespace GeometryCalculator.Figure
 {
     public interface IFigure
     {
-        public double CalculateSquare();
+        public double GetSquare();
+        public double GetPerimeter();
     }
 }

@@ -1,5 +1,5 @@
-XunitTestGeometryCalculator/bin/
-XunitTestGeometryCalculator/obj/
+Tests/bin/
+Tests/obj/
 GeometryCalculator/.vs/
 GeometryCalculator/bin/
 GeometryCalculator/obj/

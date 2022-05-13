@@ -1,6 +1,4 @@
-﻿using GeometryCalculator.Figure;
-
-namespace GeometryCalculator
+﻿namespace RedCunningFox.Planimetry
 {
     public static class GeometryCalculator
     {

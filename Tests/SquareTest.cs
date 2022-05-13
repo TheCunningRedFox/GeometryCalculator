@@ -1,8 +1,6 @@
 ﻿using Xunit;
-using GeometryCalculator;
-using System;
-using GeometryCalculator.Figure;
-using static GeometryCalculator.GeometryCalculator;
+using RedCunningFox.Planimetry;
+using static RedCunningFox.Planimetry.GeometryCalculator;
 
 namespace Tests
 {

@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-
-namespace GeometryCalculator.Figure
+namespace RedCunningFox.Planimetry
 {
     public class Triangle : Figure
     {

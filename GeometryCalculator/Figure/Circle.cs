@@ -1,22 +1,49 @@
 ﻿using System;
+using RedCunningFox.Planimetry.Exceptions;
 
 namespace RedCunningFox.Planimetry
 {
-    public class Сircle : Figure
+    public class Circle : Figure
     {
-        public double R { get; set; }
-        public Сircle (double r)
-        {
-            R = r;
+        public double Radius { 
+            get { return _radius; }
+            set 
+            {
+                if (value < 0)
+                {
+                    throw new NotValidArgumentException();
+                }
+                _radius = value;
+            }
         }
-        public override double GetSquare()
-        {
-            return Math.PI * Math.Pow(R, 2);
+        public override double Area
+        { 
+            get 
+            {
+                return Math.PI* Math.Pow(Radius, 2);
+            } 
+        }
+        public override double Perimeter { 
+            get
+            {
+                return 2 * Radius * Math.PI;
+            } 
         }
 
-        public override double GetPerimeter()
+        #region Private
+
+        private double _radius;
+
+        #endregion
+
+        #region Constructors
+
+        public Circle (double radius)
         {
-            return 2 * R * Math.PI;
+            Radius = radius;
         }
+        public Circle() { }
+
+        #endregion 
     }
 }

@@ -8,12 +8,12 @@ namespace Tests
     public class CircleTest
     {
         [Fact]
-        public void TestCircleCalculateSquare()
+        public void TestCircleCalculateArea()
         {
             double r = 3;
             double expected = 28.27;
-            var circle = new Сircle(r);
-            double circleSquare = Math.Round(CalculateSquare(circle), 2);
+            var circle = new Circle(r);
+            double circleSquare = Math.Round(CalculateArea(circle), 2);
             Assert.Equal(expected, circleSquare);
         }
 
@@ -22,7 +22,7 @@ namespace Tests
         {
             double r = 10;
             double expected = 62.8;
-            var circle = new Сircle(r);
+            var circle = new Circle(r);
             double circleSquare = Math.Round(CalculatePerimeter(circle), 1);
             Assert.Equal(expected, circleSquare);
         }

@@ -8,14 +8,14 @@ namespace Tests
     public class TriangleTest
     {
         [Fact]
-        public void TestTriangleGetSquare()
+        public void TestTriangleGetArea()
         {
             double a = 14;
             double b = 13;
             double c = 15;
             double expected = 84;
             var triangle = new Triangle(a, b, c);
-            double triangleSquare = CalculateSquare(triangle);
+            double triangleSquare = CalculateArea(triangle);
             Assert.Equal(expected, Math.Round(triangleSquare, 2));
         }
 

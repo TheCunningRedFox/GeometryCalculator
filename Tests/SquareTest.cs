@@ -8,12 +8,12 @@ namespace Tests
     public class SquareTest
     {
         [Fact]
-        public void TestSquareCalculateSquare()
+        public void TestSquareCalculateArea()
         {
             double side = 10;
             double expected = 100;
             var square = new Square(side);
-            double squareSquare = CalculateSquare(square);
+            double squareSquare = CalculateArea(square);
             Assert.Equal(expected, squareSquare);
         }
 

@@ -2,14 +2,14 @@
 {
     public static class GeometryCalculator
     {
-        public static double CalculateSquare(IFigure figure)
+        public static double CalculateArea(IFigure figure)
         {
-            return figure.GetSquare();
+            return figure.Area;
         }
 
         public static double CalculatePerimeter(IFigure figure)
         {
-            return figure.GetPerimeter();
+            return figure.Perimeter;
         }
 
         public static bool IsRightTriangle (Triangle triangle) 

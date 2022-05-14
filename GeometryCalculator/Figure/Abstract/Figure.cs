@@ -2,16 +2,26 @@
 
 namespace RedCunningFox.Planimetry
 {
-    public abstract class Figure : IFigure
+    public abstract class Figure : IFigure, IComparable<IFigure>
     {
-        public virtual double GetPerimeter()
+        public virtual double Area { get; }
+        public virtual double Perimeter { get; }
+        public int CompareTo(IFigure? figure)
         {
-            throw new NotImplementedException();
+            if (figure == null) return 1;
+            if (this.Area > figure.Area)
+            {
+                return 1;
+            } 
+            else if (this.Area < figure.Area)
+            {
+                return -1;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
-        public virtual double GetSquare()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

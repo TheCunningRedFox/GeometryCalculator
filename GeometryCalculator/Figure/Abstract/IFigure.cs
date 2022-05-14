@@ -4,7 +4,7 @@ namespace RedCunningFox.Planimetry
 {
     public interface IFigure
     {
-        public double GetSquare();
-        public double GetPerimeter();
+        public double Area { get; }
+        public double Perimeter { get; }
     }
 }

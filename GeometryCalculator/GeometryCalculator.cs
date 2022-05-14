@@ -14,7 +14,7 @@
 
         public static bool IsRightTriangle (Triangle triangle) 
         {
-            return triangle.CheckRightTriangle();
+            return triangle.IsRightTriangle;
         }
 
     }
